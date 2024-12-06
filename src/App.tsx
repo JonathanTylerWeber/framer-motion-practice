@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/variants/Refresh";
-import StaggerDelay from "./components/variants/StaggerDelay";
+import KeyComplicated from "./components/keyframes/KeyComplicated";
+// import StaggerDelay from "./components/variants/StaggerDelay";
 // import StaggerDynamic from "./components/variants/StaggerDynamic";
 // import StaggerChildren from "./StaggerChildren";
 // import { Example } from "./Example";
@@ -16,7 +17,8 @@ function App() {
       {/* <Example2 key={count} /> */}
       {/* <StaggerChildren key={count} /> */}
       {/* <StaggerDynamic key={count} /> */}
-      <StaggerDelay key={count} />
+      {/* <StaggerDelay key={count} /> */}
+      <KeyComplicated key={count} />
     </>
   );
 }
