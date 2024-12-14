@@ -1,7 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import { ExitComplete } from "./components/exitAnimations/ExitComplete";
+import { ParentChild } from "./components/useCycle/ParentChild";
+// import Variants from "./components/useCycle/Variants";
+// import { SpecificValue } from "./components/useCycle/SpecificValue";
+// import { BasicCycle } from "./components/useCycle/BasicCycle";
+// import { MoreProperties } from "./components/useCycle/MoreProperties";
+// import { ExitComplete } from "./components/exitAnimations/ExitComplete";
 // import { PopLayout } from "./components/exitAnimations/PopLayout";
 // import MultipleChildren from "./components/exitAnimations/MultipleChildren";
 // import { DifferentKey } from "./components/exitAnimations/DifferentKey";
@@ -28,7 +33,10 @@ function App() {
       {/* <MultipleChildren key={count} /> */}
       {/* <DifferentKey key={count} /> */}
       {/* <PopLayout key={count} /> */}
-      <ExitComplete key={count} />
+      {/* <ExitComplete key={count} /> */}
+      {/* <BasicCycle key={count} /> */}
+      {/* <MoreProperties key={count} /> */}
+      <ParentChild key={count} />
     </>
   );
 }
