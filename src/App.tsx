@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import { ParentChild } from "./components/useCycle/ParentChild";
+import Switch from "./components/layout/Switch";
+// import { ParentChild } from "./components/useCycle/ParentChild";
 // import Variants from "./components/useCycle/Variants";
 // import { SpecificValue } from "./components/useCycle/SpecificValue";
 // import { BasicCycle } from "./components/useCycle/BasicCycle";
@@ -36,7 +37,8 @@ function App() {
       {/* <ExitComplete key={count} /> */}
       {/* <BasicCycle key={count} /> */}
       {/* <MoreProperties key={count} /> */}
-      <ParentChild key={count} />
+      {/* <ParentChild key={count} /> */}
+      <Switch key={count} />
     </>
   );
 }
