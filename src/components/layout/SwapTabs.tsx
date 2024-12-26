@@ -11,7 +11,7 @@ export default function SwapTabs() {
 
   return (
     <>
-      <div className="relative rounded-full bg-black/30 p-3 flex content-start items-start justify-start">
+      <div className="relative rounded-full bg-black/20 p-3 flex content-start items-start justify-start">
         {tabs.map((tab, i) => (
           <motion.div
             className="text-white relative p-3 px-10 font-sans text-xl font-bold cursor-pointer"
@@ -22,7 +22,7 @@ export default function SwapTabs() {
           >
             {active === i && (
               <motion.div
-                className="w-full h-full absolute top-0 left-0 z-0 rounded-full bg-blue-800 pointer-events-none"
+                className="w-full h-full absolute top-0 left-0 z-0 rounded-full bg-blue-700 pointer-events-none"
                 layoutId="selected"
                 transition={{ type: "spring", stiffness: 500, damping: 50 }}
               />

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import SwapTabs from "./components/layout/SwapTabs";
+import MagicMotion from "./components/layout/MagicMotion";
+// import SwapTabs from "./components/layout/SwapTabs";
 // import SwappingElements from "./components/layout/SwappingElements";
 // import Switch from "./components/layout/Switch";
 // import { ParentChild } from "./components/useCycle/ParentChild";
@@ -42,7 +43,8 @@ function App() {
       {/* <ParentChild key={count} /> */}
       {/* <Switch key={count} /> */}
       {/* <SwappingElements key={count} /> */}
-      <SwapTabs key={count} />
+      {/* <SwapTabs key={count} /> */}
+      <MagicMotion key={count} />
     </>
   );
 }
