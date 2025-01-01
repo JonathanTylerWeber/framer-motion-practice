@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import MagicMotion from "./components/layout/MagicMotion";
+import AddNewElement from "./components/layout/AddNewElement";
+// import MagicMotion from "./components/layout/MagicMotion";
 // import SwapTabs from "./components/layout/SwapTabs";
 // import SwappingElements from "./components/layout/SwappingElements";
 // import Switch from "./components/layout/Switch";
@@ -44,7 +45,8 @@ function App() {
       {/* <Switch key={count} /> */}
       {/* <SwappingElements key={count} /> */}
       {/* <SwapTabs key={count} /> */}
-      <MagicMotion key={count} />
+      {/* <MagicMotion key={count} /> */}
+      <AddNewElement key={count} />
     </>
   );
 }
