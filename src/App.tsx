@@ -1,9 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
+import InOutRanges from "./components/motionValues/InOutRanges";
 // import AddNewElement from "./components/layout/AddNewElement";
 // import MotionValues from "./components/motionValues/MotionValues";
-import DragSlider from "./components/motionValues/DragSlider";
+// import DragSlider from "./components/motionValues/DragSlider";
 // import MagicMotion from "./components/layout/MagicMotion";
 // import SwapTabs from "./components/layout/SwapTabs";
 // import SwappingElements from "./components/layout/SwappingElements";
@@ -50,7 +51,8 @@ function App() {
       {/* <MagicMotion key={count} /> */}
       {/* <AddNewElement key={count} /> */}
       {/* <MotionValues key={count} /> */}
-      <DragSlider key={count} />
+      {/* <DragSlider key={count} /> */}
+      <InOutRanges key={count} />
     </>
   );
 }
