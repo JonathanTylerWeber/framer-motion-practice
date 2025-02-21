@@ -1,7 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import InOutRanges from "./components/motionValues/InOutRanges";
+import { SVGPathLength } from "./components/motionValues/SVGPathLength";
+// import { DragTransform } from "./components/motionValues/DragTransform";
+// import { DragTransform3D } from "./components/motionValues/DragTransform3D";
+// import InOutRanges from "./components/motionValues/InOutRanges";
 // import AddNewElement from "./components/layout/AddNewElement";
 // import MotionValues from "./components/motionValues/MotionValues";
 // import DragSlider from "./components/motionValues/DragSlider";
@@ -52,7 +55,10 @@ function App() {
       {/* <AddNewElement key={count} /> */}
       {/* <MotionValues key={count} /> */}
       {/* <DragSlider key={count} /> */}
-      <InOutRanges key={count} />
+      {/* <InOutRanges key={count} /> */}
+      {/* <DragTransform key={count} /> */}
+      {/* <DragTransform3D key={count} /> */}
+      <SVGPathLength key={count} />
     </>
   );
 }
