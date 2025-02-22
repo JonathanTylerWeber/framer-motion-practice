@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import { SVGPathLength } from "./components/motionValues/SVGPathLength";
+// import { SVGPathLength } from "./components/motionValues/SVGPathLength";
+// import ColorsInterpolation from "./components/motionValues/ColorsInterpolation";
+import TrackingCursor from "./components/motionValues/TrackingCursor";
 // import { DragTransform } from "./components/motionValues/DragTransform";
 // import { DragTransform3D } from "./components/motionValues/DragTransform3D";
 // import InOutRanges from "./components/motionValues/InOutRanges";
@@ -58,7 +60,9 @@ function App() {
       {/* <InOutRanges key={count} /> */}
       {/* <DragTransform key={count} /> */}
       {/* <DragTransform3D key={count} /> */}
-      <SVGPathLength key={count} />
+      {/* <SVGPathLength key={count} /> */}
+      {/* <ColorsInterpolation key={count} /> */}
+      <TrackingCursor key={count} />
     </>
   );
 }
