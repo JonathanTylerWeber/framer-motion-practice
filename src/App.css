@@ -5,13 +5,14 @@
 body {
   width: 100vw;
   height: 100vh;
-  background: #0af;
-  overflow: hidden;
+  /* background: #0af; */
+  /* overflow: hidden; */
+  overflow-y: auto;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   -webkit-user-select: none; /* Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
