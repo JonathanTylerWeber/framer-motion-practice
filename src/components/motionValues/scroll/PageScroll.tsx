@@ -20,11 +20,7 @@ export default function PageScroll() {
         </div>
 
         <h1>Page scroll</h1>
-        <p className="text-lg font-extralight">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
-          eros eu orci condimentum fermentum. Nam vehicula nunc et nisi pretium,
-          sit amet commodo erat dapibus.
-        </p>
+
         <p className="text-lg font-extralight">
           Cras eu orci mollis, varius erat at, volutpat dolor. Proin a tortor
           vel tellus sodales vehicula a at dui. Nam interdum condimentum dolor,
