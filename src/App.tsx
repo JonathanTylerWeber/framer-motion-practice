@@ -1,10 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
+import PictureScroll from "./components/motionValues/scroll/PictureScroll";
+// import { ScrollBox } from "./components/motionValues/scroll/ScrollBox";
+// import ElementScroll from "./components/motionValues/scroll/ElementScroll";
+// import ScrollNav from "./components/motionValues/scroll/ScrollNav";
 // import { SVGPathLength } from "./components/motionValues/SVGPathLength";
 // import ColorsInterpolation from "./components/motionValues/ColorsInterpolation";
 // import TrackingCursor from "./components/motionValues/TrackingCursor";
-import PageScroll from "./components/motionValues/scroll/PageScroll";
+// import PageScroll from "./components/motionValues/scroll/PageScroll";
+// import PageScrollMorph from "./components/motionValues/scroll/PageScrollMorph";
 // import { DragTransform } from "./components/motionValues/DragTransform";
 // import { DragTransform3D } from "./components/motionValues/DragTransform3D";
 // import InOutRanges from "./components/motionValues/InOutRanges";
@@ -36,7 +41,7 @@ function App() {
   const [count, setCount] = useState(0);
   return (
     <>
-      {/* <Refresh onClick={() => setCount(count + 1)} /> */}
+      <Refresh onClick={() => setCount(count + 1)} />
       {/* <Example key={count} /> */}
       {/* <Example2 key={count} /> */}
       {/* <StaggerChildren key={count} /> */}
@@ -64,7 +69,12 @@ function App() {
       {/* <SVGPathLength key={count} /> */}
       {/* <ColorsInterpolation key={count} /> */}
       {/* <TrackingCursor key={count} /> */}
-      <PageScroll key={count} />
+      {/* <PageScroll key={count} /> */}
+      {/* <PageScrollMorph /> */}
+      {/* <ScrollNav /> */}
+      {/* <ScrollBox /> */}
+      {/* <ElementScroll /> */}
+      <PictureScroll />
     </>
   );
 }
