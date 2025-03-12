@@ -1,9 +1,12 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
+import DragScrollAnimation3 from "./components/motionValues/scroll/drag/DragScrollAnimation3";
+// import DragScrollAnimation from "./components/motionValues/scroll/drag/DragScrollAnimation";
+// import DragScrollAnimation2 from "./components/motionValues/scroll/drag/DragScrollAnimation2";
 // import PictureScroll from "./components/motionValues/scroll/PictureScroll";
 // import ScrollOffset from "./components/motionValues/scroll/ScrollOffset";
-import ScrollTrackElement from "./components/motionValues/scroll/ScrollTrackElement";
+// import ScrollTrackElement from "./components/motionValues/scroll/ScrollTrackElement";
 // import { ScrollBox } from "./components/motionValues/scroll/ScrollBox";
 // import ElementScroll from "./components/motionValues/scroll/ElementScroll";
 // import ScrollNav from "./components/motionValues/scroll/ScrollNav";
@@ -78,7 +81,10 @@ function App() {
       {/* <ElementScroll /> */}
       {/* <PictureScroll /> */}
       {/* <ScrollOffset /> */}
-      <ScrollTrackElement />
+      {/* <ScrollTrackElement /> */}
+      {/* <DragScrollAnimation /> */}
+      {/* <DragScrollAnimation2 /> */}
+      <DragScrollAnimation3 />
     </>
   );
 }
