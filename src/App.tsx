@@ -1,11 +1,14 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
+import AnimateControls from "./components/useAnimate/AnimateControls";
+// import ReturnAfterDrag from "./components/useAnimate/ReturnAfterDrag";
+// import AnimateWhenAppear from "./components/useAnimate/AnimateWhenAppear";
 // import DragScrollAnimation3 from "./components/motionValues/drag/DragScrollAnimation3";
 // import SpringMotionValues from "./components/motionValues/springy/SpringMotionValues";
 // import ConvertMotionValues from "./components/motionValues/springy/ConvertMotionValues";
 // import SpringyUseScroll from "./components/motionValues/springy/SpringyUseScroll";
-import SpringDragCircles from "./components/motionValues/springy/SpringDragCircles";
+// import SpringDragCircles from "./components/motionValues/springy/SpringDragCircles";
 // import DragScrollAnimation from "./components/motionValues/scroll/drag/DragScrollAnimation";
 // import DragScrollAnimation2 from "./components/motionValues/scroll/drag/DragScrollAnimation2";
 // import PictureScroll from "./components/motionValues/scroll/PictureScroll";
@@ -92,7 +95,10 @@ function App() {
       {/* <SpringMotionValues /> */}
       {/* <ConvertMotionValues /> */}
       {/* <SpringyUseScroll /> */}
-      <SpringDragCircles />
+      {/* <SpringDragCircles /> */}
+      {/* <ReturnAfterDrag key={count} /> */}
+      {/* <AnimateWhenAppear key={count} /> */}
+      <AnimateControls key={count} />
     </>
   );
 }
