@@ -1,7 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import { Refresh } from "./components/Refresh";
-import AnimateControls from "./components/useAnimate/AnimateControls";
+import { Calendar } from "./components/useAnimate/Calendar";
+// import StaggeringText from "./components/useAnimate/StaggeringText";
+// import AnimateControls from "./components/useAnimate/AnimateControls";
+// import { CircleAnimationControl } from "./components/useAnimate/CircleAnimationControl";
 // import ReturnAfterDrag from "./components/useAnimate/ReturnAfterDrag";
 // import AnimateWhenAppear from "./components/useAnimate/AnimateWhenAppear";
 // import DragScrollAnimation3 from "./components/motionValues/drag/DragScrollAnimation3";
@@ -98,7 +101,10 @@ function App() {
       {/* <SpringDragCircles /> */}
       {/* <ReturnAfterDrag key={count} /> */}
       {/* <AnimateWhenAppear key={count} /> */}
-      <AnimateControls key={count} />
+      {/* <AnimateControls key={count} /> */}
+      {/* <CircleAnimationControl key={count} /> */}
+      {/* <StaggeringText key={count} text="Staggering text" /> */}
+      <Calendar key={count} />
     </>
   );
 }
